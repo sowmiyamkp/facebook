@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+    box-sizing: border-box
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.login-sec {
+    background-color: #f0f2f5;
+}
+
+.row-main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-left img {
+    width: 100%;
+}
+
+.col-left .logo {
+    width: 50%;
+}
+
+.col-left h2 {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #373737;
+}
+
+.col-right {
+    width: 35% !important;
+    align-items: center;
+    background-color: #fff;
+
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+}
+
+input.login-email,
+input.login-pswd {
+    font-size: 1rem;
+    padding: 9px 14px;
+    margin: 10px 0;
+    font-weight: 400;
+
+}
+
+.login-btn {
+    width: 100%;
+    font-size: 1.4rem !important;
+    font-weight: 500 !important;
+}
+
+.forget-pswd a {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none !important;
+}
+
+.forget-pswd {
+    margin: 1rem 0;
+}
+
+.seperator {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.create-acc button a {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 3;
+    padding: 0 1rem;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+}
+.form-group {
+    position: relative;
+}
+.error-class {
+    font-size: 1.1rem;
+    right: 10px;
+    position: absolute;
+    bottom: 43px;
+    font-size: 1.1rem;
+    color: #fa3c3c;
+    display: none;
+}
+.error-msg {
+    font-size: 15px;
+    text-align: left;
+    color: red;
+    /* margin: 0; */
+   display: none;
+}
+.error-show{
+    display: block;
+}
+.error-show{
+    display: block;
+}
